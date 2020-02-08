@@ -2372,6 +2372,50 @@ const cryptocurrenciesById: { [name: string]: CryptoCurrency } = {
       }
     ]
   },
+  unobtanium: {
+    id: "unobtanium",
+    coinType: 92,
+    name: "Unobtanium",
+    managerAppName: "Unobtanium",
+    ticker: "UNO",
+    scheme: "unobtanium",
+    color: "#000000",
+    family: "bitcoin",
+    blockAvgTime: 600,
+    bitcoinLikeInfo: {
+      P2PKH: 130,
+      P2SH: 30
+    },
+    units: [
+      {
+        name: "unobtanium",
+        code: "UNO",
+        symbol: "UNO",
+        magnitude: 8
+      },
+      {
+        name: "milli-Unobtanium",
+        code: "mUNO",
+        magnitude: 5
+      },
+      {
+        name: "micro-unobtanium",
+        code: "μUNO",
+        magnitude: 2
+      },
+      {
+        name: "unoshi",
+        code: "un",
+        magnitude: 0
+      }
+    ],
+    explorerViews: [
+      {
+        tx: "https://chainz.cryptoid.info/uno/tx.dws?$hash.htm",
+        address: "chainz.cryptoid.info/uno/address.dws?$address.htm"
+      }
+    ]
+  },
 
   // Testnets
   bitcoin_testnet: {
